@@ -15,7 +15,7 @@ This research repository publishes a harmonized geographic representation of roa
 - one vector preview per year;
 - a manifest linking every public layer to its controlling private source by SHA-256 hash.
 
-OpenStreetMap extracts, the complete GeoNames dump, the embedded Python environment, intermediate files and the large private reconstruction GeoPackages are not redistributed. The historical scans and the minimal raster-bearing GeoPackages required to audit extraction against the source images are included.
+OpenStreetMap extracts, the complete GeoNames dump, the embedded Python environment, intermediate files and the large private reconstruction GeoPackages are not redistributed. The historical scans, source-image vectors and the single tiled 1938 display derivative required to audit extraction against the source images are included.
 
 ## Scientific status
 
@@ -59,4 +59,4 @@ The [original-source manifest](sources/ORIGINAL_SCAN_MANIFEST.csv) identifies ev
 
 ## Citation and licensing
 
-A citation file is included in [CITATION.cff](CITATION.cff). Code under `code/` is released under the [MIT License](LICENSE-CODE.md). The derived vector data, QGIS project, previews, configurations and documentation are released under [CC BY-NC 4.0](LICENSE-DATA.md), subject to the source-specific attribution requirements in [SOURCES_AND_RIGHTS.md](SOURCES_AND_RIGHTS.md). The six scans and their embedded raster copies are excluded from that licence and remain governed by the Gallica content terms stated in their manifest.
+A citation file is included in [CITATION.cff](CITATION.cff). Code under `code/` is released under the [MIT License](LICENSE-CODE.md). The derived vector data, QGIS project, previews, configurations and documentation are released under [CC BY-NC 4.0](LICENSE-DATA.md), subject to the source-specific attribution requirements in [SOURCES_AND_RIGHTS.md](SOURCES_AND_RIGHTS.md). The six scans and the tiled 1938 display derivative are excluded from that licence and remain governed by the Gallica content terms stated in their manifest.
