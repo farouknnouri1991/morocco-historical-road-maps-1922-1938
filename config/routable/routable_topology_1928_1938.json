@@ -1,0 +1,29 @@
+{
+  "output_dir": "outputs/cartographic_routable_topology_1928_1938_2026-10-09_v1",
+  "separate_year_directories": true,
+  "years": [1928, 1934, 1936, 1938],
+  "source_topology": {
+    "1928": "../REPRODUCTION_1928/outputs/C1928_RESEAU_TOPOLOGIQUE.gpkg",
+    "1934": "../REPRODUCTION_1934/outputs/C1934_RESEAU_TOPOLOGIQUE.gpkg",
+    "1936": "../REPRODUCTION_1936/outputs/C1936_RESEAU_TOPOLOGIQUE.gpkg",
+    "1938": "../REPRODUCTION_1938/outputs/C1938_RESEAU_TOPOLOGIQUE.gpkg"
+  },
+  "source_raster": {
+    "1928": "../REPRODUCTION_1928/inputs/carte_originale/C1928_CARTE_ORIGINALE.jpg",
+    "1934": "../REPRODUCTION_1934/inputs/carte_originale/C1934_CARTE_ORIGINALE.jpg",
+    "1936": "../REPRODUCTION_1936/inputs/carte_originale/C1936_CARTE_ORIGINALE.jpg",
+    "1938": "../REPRODUCTION_1938/inputs/carte_originale/C1938_CARTE_ORIGINALE.jpg"
+  },
+  "source_road_rules": {
+    "1928": "../REPRODUCTION_1928/inputs/reglages/C1928_REGLES_RESEAU_ROUGE.json",
+    "1934": "../REPRODUCTION_1934/inputs/reglages/C1934_REGLES_RESEAU_ROUGE.json",
+    "1936": "../REPRODUCTION_1936/inputs/reglages/C1936_REGLES_RESEAU_ROUGE.json",
+    "1938": "../REPRODUCTION_1938/inputs/reglages/C1938_REGLES_RESEAU_ROUGE.json"
+  },
+  "parameters_by_year": {
+    "1928": {"tolerance_px": 1.0, "maximum_gap_px": 40.0, "minimum_alignment_dot": 0.9},
+    "1934": {"tolerance_px": 1.0, "maximum_gap_px": 48.0, "minimum_alignment_dot": 0.9},
+    "1936": {"tolerance_px": 1.0, "maximum_gap_px": 48.0, "minimum_alignment_dot": 0.9},
+    "1938": {"tolerance_px": 1.0, "maximum_gap_px": 75.0, "minimum_alignment_dot": 0.9}
+  }
+}

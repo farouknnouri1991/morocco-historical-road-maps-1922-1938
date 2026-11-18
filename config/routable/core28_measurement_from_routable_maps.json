@@ -1,0 +1,17 @@
+{
+  "core28_csv": "inputs/reference/CORE28_NETWORK_COVARIATES_JOIN_READY.csv",
+  "functional_units_csv": "inputs/reference/functional_units_ghsl_current.csv",
+  "topology_gpkg": {
+    "1922": "outputs/cartographic_routable_topology_repair_2026-10-09_v1/C1922_ROUTABLE_TOPOLOGY_REPAIRED.gpkg",
+    "1925": "outputs/cartographic_routable_topology_repair_2026-10-09_v1/C1925_ROUTABLE_TOPOLOGY_REPAIRED.gpkg"
+  },
+  "topology_layer": {
+    "1922": "repaired_edges_geographic",
+    "1925": "repaired_edges_geographic"
+  },
+  "output_dir": "outputs/cartographic_core28_routable_network_from_maps_2026-10-09_v2",
+  "years": [1922, 1925],
+  "snap_radii_km": [5, 10, 20],
+  "primary_snap_km": 10,
+  "variants": ["ALL_MAPPED_STATUSES", "OBSERVED_FRAGMENTS_ONLY"]
+}

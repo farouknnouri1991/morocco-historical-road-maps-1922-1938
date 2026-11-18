@@ -1,0 +1,54 @@
+{
+  "map_id": "C1925",
+  "map_year": 1925,
+  "width": 8213,
+  "height": 6589,
+  "raster": "inputs/carte_originale/C1925_CARTE_ORIGINALE.jpg",
+  "raster_sha256": "fe5d521d7ae1b21fb1a33a3f4426781048b7571392b1e13a46f9f5fd55135273",
+  "road_extraction_config": "inputs/reglages/C1925_REGLES_RESEAU_ROUGE.json",
+  "tesseract_executable": "../REPRODUCTION_1938/environnement/tesseract/tesseract.exe",
+  "reference_geopackage": "reference/C1925_REFERENCE_CURRENT_BEST_SIG.gpkg",
+  "human_locality_decisions": "inputs/decisions_humaines/C1925_LOCALITES_28_VALIDEES.csv",
+  "m0_control_coordinates": "inputs/decisions_humaines/C1925_M0_COORDONNEES_28.csv",
+  "geonames": "inputs/sources_modernes/MA_GEONAMES.txt",
+  "osm_pbf": "inputs/sources_modernes/MAROC_OSM.pbf",
+  "output_geopackage": "outputs/C1925_PRODUIT_CONSOLIDE_ESSAI.gpkg",
+  "historical_qgis_project": "outputs/C1925_CARTE_HISTORIQUE.qgz",
+  "current_qgis_project": "outputs/C1925_SITUATION_MAROC_ACTUEL.qgz",
+  "visual_delivery": {
+    "historical_raster_layer": "carte_originale_1925",
+    "georeferenced_raster_layer": "carte_1925_georeferencee",
+    "historical_roads_layer": "routes_1925_carte",
+    "historical_localities_layer": "localites_1925_carte",
+    "article_cities_map_layer": "villes_article_1925_carte",
+    "geographic_roads_layer": "routes_1925_geographiques",
+    "geographic_localities_layer": "localites_1925_geographiques",
+    "article_cities_geographic_layer": "villes_article_1925_geographiques",
+    "current_roads_layer": "routes_maroc_actuel",
+    "current_localities_layer": "localites_maroc_actuel",
+    "preview_prefix": "C1925"
+  },
+  "documentary_exclusion_boxes_source_down": [
+    [700, 400, 3500, 2300]
+  ],
+  "sea_mask": {
+    "downsample_factor": 8,
+    "deep_sea_safety_distance_px": 32,
+    "border_seed_search_depth_px": 512,
+    "seed_boxes": [
+      [750, 3200, 850, 3300],
+      [4000, 350, 4100, 450],
+      [6100, 450, 6200, 550]
+    ],
+    "rule": "C1925_SEA_SENTINELS_AND_28_VALIDATED_LAND_POINTS"
+  },
+  "status": "SOURCE_FIRST_REPRODUCTION_FROM_ORIGINAL_RASTER",
+  "method_contract": {
+    "historical_objects_come_only_from_1925_result": true,
+    "modern_sources_are_context_only": true,
+    "connectors_count_as_roads": true,
+    "human_validated_city_circles_are_preserved": true,
+    "source_first_producer_active": true,
+    "prior_package_used_only_as_comparator": true
+  }
+}

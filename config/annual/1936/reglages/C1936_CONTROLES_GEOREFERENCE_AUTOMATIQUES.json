@@ -1,0 +1,21 @@
+{
+  "status": "AUTOMATIC_GEOREFERENCE_CONTROLS_PREPARED",
+  "target_map": "C1936",
+  "source_map": "C1928",
+  "source_controls": "REPRODUCTION_1928\\inputs\\decisions_humaines\\C1928_CONTROLES_GEOREFERENCE_HERITES_1925.csv",
+  "target_controls": "REPRODUCTION_1936\\inputs\\reglages\\C1936_CONTROLES_GEOREFERENCE_AUTOMATIQUES.csv",
+  "control_count": 28,
+  "source_frame": [
+    600.0,
+    250.0,
+    8000.0,
+    6350.0
+  ],
+  "target_frame": [
+    880.0,
+    500.0,
+    9790.0,
+    7500.0
+  ],
+  "scientific_status": "AUTOMATIC_INHERITED_GEOREFERENCE_NOT_HUMAN_VALIDATED_FOR_TARGET_YEAR"
+}

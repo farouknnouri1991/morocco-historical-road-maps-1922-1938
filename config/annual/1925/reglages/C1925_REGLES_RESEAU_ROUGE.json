@@ -1,0 +1,34 @@
+{
+  "schema_version": "C1925_ROAD_CONFIG_1",
+  "map_year": 1925,
+  "raster_sha256": "fe5d521d7ae1b21fb1a33a3f4426781048b7571392b1e13a46f9f5fd55135273",
+  "frame": [500, 150, 7950, 6200],
+  "excluded_rectangles": {
+    "title_and_legend": [700, 350, 3500, 2350]
+  },
+  "red_rule": {
+    "hue_max": 13,
+    "saturation_min_exclusive": 45,
+    "value_min_exclusive": 100,
+    "red_minus_green_min_exclusive": 18,
+    "red_minus_blue_min_exclusive": 22
+  },
+  "morphological_close_kernel": 3,
+  "remove_small_objects_max_size": 25,
+  "trace_minimum_length": 7.0,
+  "simplify_tolerance": 1.0,
+  "post_clip_minimum_length": 6.0,
+  "gap_rule": {
+    "minimum_distance_px": 4.0,
+    "maximum_distance_px": 40.0,
+    "minimum_alignment_dot": 0.90,
+    "mutual_nearest_eligible_partner": true,
+    "one_connector_per_segment_pair": true,
+    "connector_semantic_role": "ROAD"
+  },
+  "tiling": {
+    "tile_size": 1024,
+    "stride": 896
+  },
+  "seed": 1925
+}

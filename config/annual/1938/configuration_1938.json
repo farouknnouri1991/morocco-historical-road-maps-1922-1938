@@ -1,0 +1,60 @@
+{
+  "map_id": "C1938",
+  "map_year": 1938,
+  "width": 16706,
+  "height": 15598,
+  "raster": "inputs/carte_originale/C1938_CARTE_ORIGINALE.jpg",
+  "road_extraction_config": "inputs/reglages/C1938_REGLES_RESEAU_ROUGE.json",
+  "tile_register": "inputs/reglages/C1938_GRILLE_TUILES.csv",
+  "m0_control_coordinates": "inputs/decisions_humaines/C1938_M0_COORDONNEES_28.csv",
+  "validated_facilities": "inputs/decisions_humaines/C1938_SERVICES_56_VALIDES.csv",
+  "validated_distances": "inputs/decisions_humaines/C1938_DISTANCES_69_VALIDEES.csv",
+  "geonames": "inputs/sources_modernes/MA_GEONAMES.txt",
+  "osm_pbf": "inputs/sources_modernes/MAROC_OSM.pbf",
+  "tesseract_executable": "environnement/tesseract/tesseract.exe",
+  "reference_geopackage": "reference/C1938_REFERENCE_PRODUIT_CONSOLIDE.gpkg",
+  "human_locality_decisions": "inputs/decisions_humaines/C1938_LOCALITES_28_VALIDEES.csv",
+  "output_geopackage": "outputs/C1938_PRODUIT_FINAL_CONSOLIDE.gpkg",
+  "historical_qgis_project": "outputs/C1938_CARTE_HISTORIQUE.qgz",
+  "current_qgis_project": "outputs/C1938_SITUATION_MAROC_ACTUEL.qgz",
+  "visual_delivery": {
+    "historical_raster_layer": "carte_originale_1938",
+    "georeferenced_raster_layer": "carte_1938_georeferencee",
+    "historical_roads_layer": "routes_1938_carte",
+    "historical_localities_layer": "localites_1938_carte",
+    "geographic_roads_layer": "routes_1938_geographiques",
+    "geographic_localities_layer": "localites_1938_geographiques",
+    "current_roads_layer": "routes_maroc_actuel",
+    "current_localities_layer": "localites_maroc_actuel",
+    "preview_prefix": "C1938"
+  },
+  "expected": {
+    "road_fragments": 9909,
+    "road_connectors": 3261,
+    "roads": 13170,
+    "historical_localities": 585,
+    "human_validated_localities": 28,
+    "modern_localities": 587,
+    "modern_roads": 401216,
+    "validated_distances": 69,
+    "validated_facility_observations": 56
+  },
+  "optional_detectors": {
+    "local_text": false,
+    "numeric_glyphs": false,
+    "facility_symbols": false,
+    "nonroad_linear": false
+  },
+  "sea_mask": {
+    "downsample_factor": 8,
+    "deep_sea_safety_distance_px": 40,
+    "border_seed_search_depth_px": 1024,
+    "seed_boxes": [
+      [1364, 10278, 1424, 10317],
+      [1488, 10536, 1501, 10550],
+      [7112, 896, 7127, 904],
+      [6787, 1472, 6805, 1483]
+    ],
+    "rule": "VALIDATED_SEA_SENTINELS_AND_28_VALIDATED_LAND_POINTS"
+  }
+}

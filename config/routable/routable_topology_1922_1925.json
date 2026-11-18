@@ -1,0 +1,19 @@
+{
+  "output_dir": "outputs/cartographic_routable_topology_repair_2026-10-09_v1",
+  "years": [1922, 1925],
+  "source_topology": {
+    "1922": "../REPRODUCTION_1922/outputs/C1922_RESEAU_TOPOLOGIQUE.gpkg",
+    "1925": "../REPRODUCTION_1925/outputs/C1925_RESEAU_TOPOLOGIQUE.gpkg"
+  },
+  "source_raster": {
+    "1922": "../REPRODUCTION_1922/inputs/carte_originale/C1922_CARTE_ORIGINALE.jpg",
+    "1925": "../REPRODUCTION_1925/inputs/carte_originale/C1925_CARTE_ORIGINALE.jpg"
+  },
+  "source_road_rules": {
+    "1922": "../REPRODUCTION_1922/inputs/reglages/C1922_REGLES_RESEAU_ROUGE.json",
+    "1925": "../REPRODUCTION_1925/inputs/reglages/C1925_REGLES_RESEAU_ROUGE.json"
+  },
+  "tolerance_px": 1.0,
+  "maximum_gap_px": 40.0,
+  "minimum_alignment_dot": 0.9
+}

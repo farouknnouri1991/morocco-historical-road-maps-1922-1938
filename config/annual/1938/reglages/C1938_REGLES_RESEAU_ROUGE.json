@@ -1,0 +1,37 @@
+{
+  "schema_version": "C1938_ROAD_V1_CONFIG_1",
+  "map_year": 1938,
+  "raster": "inputs/carte_originale/C1938_CARTE_ORIGINALE.jpg",
+  "raster_sha256": "7F1AF41EC8DEC77A77C205CC0ADC4CFADE73CA5C0169B5238BA37486AB631AE6",
+  "tile_register": "inputs/reglages/C1938_GRILLE_TUILES.csv",
+  "baseline_fragment_register": "ARCHIVE_NON_UTILISEE_POUR_L_EXTRACTION",
+  "baseline_gap_register": "ARCHIVE_NON_UTILISEE_POUR_L_EXTRACTION",
+  "baseline_network_gpkg": "outputs/C1938_PRODUIT_FINAL_CONSOLIDE.gpkg",
+  "frame": [450, 250, 16490, 15350],
+  "excluded_rectangles": {
+    "title": [2500, 300, 6500, 4300],
+    "legend": [14200, 12150, 16650, 13600],
+    "distance_table": [11360, 12790, 16622, 15520]
+  },
+  "red_rule": {
+    "hue_max": 13,
+    "saturation_min_exclusive": 90,
+    "value_min_exclusive": 105,
+    "red_minus_green_min_exclusive": 25,
+    "red_minus_blue_min_exclusive": 35
+  },
+  "morphological_close_kernel": 3,
+  "remove_small_objects_max_size": 79,
+  "trace_minimum_length": 12.0,
+  "simplify_tolerance": 1.25,
+  "post_clip_minimum_length": 10.0,
+  "gap_rule": {
+    "minimum_distance_px": 8.0,
+    "maximum_distance_px": 75.0,
+    "minimum_alignment_dot": 0.90,
+    "mutual_nearest_eligible_partner": true,
+    "one_connector_per_segment_pair": true,
+    "connector_semantic_role": "ROAD"
+  },
+  "seed": 1938
+}

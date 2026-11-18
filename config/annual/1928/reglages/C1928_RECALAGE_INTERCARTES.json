@@ -1,0 +1,25 @@
+{
+  "map_id": "C1928",
+  "source_map": "C1925",
+  "source_decisions": "C1925_LOCALITES_28_VALIDEES.csv",
+  "source_coordinates": "C1925_M0_COORDONNEES_28.csv",
+  "homography_target_to_1925": [
+    [
+      0.9741649297345,
+      -0.01604376592942,
+      229.0280109579
+    ],
+    [
+      0.005376696316192,
+      0.9896984479369,
+      -87.84977279804
+    ],
+    [
+      4.673880357779e-07,
+      -1.80104815402e-06,
+      1.0
+    ]
+  ],
+  "control_count": 28,
+  "scientific_status": "AUTOMATIC_INHERITED_GEOREFERENCE_NOT_HUMAN_VALIDATED_FOR_TARGET_YEAR"
+}

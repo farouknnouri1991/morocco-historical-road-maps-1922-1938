@@ -1,0 +1,10 @@
+{
+  "city_universe": "ALL148",
+  "functional_units_csv": "inputs/reference/functional_units_ghsl_current.csv",
+  "osm_pbf": "../REPRODUCTION_1938/inputs/sources_modernes/MAROC_OSM.pbf",
+  "output_dir": "outputs/contemporary_all148_network_2026-10-11_v1",
+  "snap_radius_km": 10,
+  "network_variants": {
+    "STRUCTURAL_ROADS": ["motorway", "motorway_link", "trunk", "trunk_link", "primary", "primary_link", "secondary", "secondary_link", "tertiary", "tertiary_link"]
+  }
+}

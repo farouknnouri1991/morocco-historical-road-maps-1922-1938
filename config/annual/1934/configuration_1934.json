@@ -1,0 +1,48 @@
+{
+  "map_id": "C1934",
+  "map_year": 1934,
+  "width": 10430,
+  "height": 8457,
+  "raster": "inputs/carte_originale/C1934_CARTE_ORIGINALE.jpg",
+  "raster_sha256": "0b92f6589774791888c88c9b9c1a0012537007f2bf14846bca8d0d4439957320",
+  "map_frame": [850, 650, 9620, 7900],
+  "work_width": 6000,
+  "road_extraction_config": "inputs/reglages/C1934_REGLES_RESEAU_ROUGE.json",
+  "automatic_georeference_controls": "inputs/reglages/C1934_CONTROLES_GEOREFERENCE_AUTOMATIQUES.csv",
+  "automatic_georeference_transfer": {
+    "source_map": "C1928",
+    "source_controls": "../REPRODUCTION_1928/inputs/decisions_humaines/C1928_CONTROLES_GEOREFERENCE_HERITES_1925.csv",
+    "source_frame": [600, 250, 8000, 6350]
+  },
+  "geonames": "inputs/sources_modernes/MA_GEONAMES.txt",
+  "osm_pbf": "inputs/sources_modernes/MAROC_OSM.pbf",
+  "tesseract_executable": "../REPRODUCTION_1938/environnement/tesseract/tesseract.exe",
+  "output_geopackage": "outputs/C1934_PRODUIT_FINAL_CONSOLIDE.gpkg",
+  "historical_qgis_project": "outputs/C1934_CARTE_HISTORIQUE.qgz",
+  "current_qgis_project": "outputs/C1934_SITUATION_MAROC_ACTUEL.qgz",
+  "visual_delivery": {
+    "historical_raster_layer": "carte_originale_1934",
+    "georeferenced_raster_layer": "carte_1934_georeferencee",
+    "historical_roads_layer": "routes_1934_carte",
+    "historical_localities_layer": "localites_1934_carte",
+    "geographic_roads_layer": "routes_1934_geographiques",
+    "geographic_localities_layer": "localites_1934_geographiques",
+    "current_roads_layer": "routes_maroc_actuel",
+    "current_localities_layer": "localites_maroc_actuel",
+    "preview_prefix": "C1934"
+  },
+  "sea_mask": {
+    "downsample_factor": 8,
+    "deep_sea_safety_distance_px": 36,
+    "seed_boxes": [[1600, 3850, 1700, 3950], [4300, 850, 4400, 950], [7650, 800, 7750, 900]]
+  },
+  "status": "C1938_ENGINE_ADAPTATION_READY",
+  "method_contract": {
+    "historical_objects_come_only_from_historical_raster": true,
+    "modern_sources_are_context_only": true,
+    "road_track_classification_is_not_invented": true,
+    "connectors_count_as_roads": true,
+    "partial_locality_rings_are_admissible": true,
+    "human_decisions_are_required_only_for_critical_promotion": true
+  }
+}

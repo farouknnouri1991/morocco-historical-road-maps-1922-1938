@@ -1,0 +1,541 @@
+{
+  "schema": "historical-maps-publication-manifest-v1",
+  "source_root": "private archive; layer-level relative paths recorded below",
+  "publication_root": ".",
+  "layers": [
+    {
+      "year": 1922,
+      "family": "routes",
+      "source_file": "REPRODUCTION_1922/outputs/C1922_PRODUIT_FINAL_CONSOLIDE.gpkg",
+      "source_layer": "routes_1922_geographiques",
+      "source_sha256": "c96a8c48058dbaaf15ddefce33a28550d24b03923531245c872d9228e83872d5",
+      "public_file": "data/morocco_historical_maps_1922_1938.gpkg",
+      "public_layer": "routes_1922",
+      "feature_count": 1838
+    },
+    {
+      "year": 1922,
+      "family": "localities",
+      "source_file": "REPRODUCTION_1922/outputs/C1922_PRODUIT_FINAL_CONSOLIDE.gpkg",
+      "source_layer": "localites_1922_geographiques",
+      "source_sha256": "c96a8c48058dbaaf15ddefce33a28550d24b03923531245c872d9228e83872d5",
+      "public_file": "data/morocco_historical_maps_1922_1938.gpkg",
+      "public_layer": "localities_1922",
+      "feature_count": 80
+    },
+    {
+      "year": 1925,
+      "family": "routes",
+      "source_file": "REPRODUCTION_1925/outputs/C1925_PRODUIT_CONSOLIDE_ESSAI.gpkg",
+      "source_layer": "routes_1925_geographiques",
+      "source_sha256": "f71af80376ee8d1c4217a8c1a2dd3d45ce47e51442e5eb61e7aaa174bbcffe0a",
+      "public_file": "data/morocco_historical_maps_1922_1938.gpkg",
+      "public_layer": "routes_1925",
+      "feature_count": 1628
+    },
+    {
+      "year": 1925,
+      "family": "localities",
+      "source_file": "REPRODUCTION_1925/outputs/C1925_PRODUIT_CONSOLIDE_ESSAI.gpkg",
+      "source_layer": "localites_1925_geographiques",
+      "source_sha256": "f71af80376ee8d1c4217a8c1a2dd3d45ce47e51442e5eb61e7aaa174bbcffe0a",
+      "public_file": "data/morocco_historical_maps_1922_1938.gpkg",
+      "public_layer": "localities_1925",
+      "feature_count": 270
+    },
+    {
+      "year": 1928,
+      "family": "routes",
+      "source_file": "REPRODUCTION_1928/outputs/C1928_PRODUIT_FINAL_CONSOLIDE.gpkg",
+      "source_layer": "routes_1928_geographiques",
+      "source_sha256": "f961a9ee642511aac107a3c74b9ab55d81c14c3b932715b721e21e62f2441f28",
+      "public_file": "data/morocco_historical_maps_1922_1938.gpkg",
+      "public_layer": "routes_1928",
+      "feature_count": 10420
+    },
+    {
+      "year": 1928,
+      "family": "localities",
+      "source_file": "REPRODUCTION_1928/outputs/C1928_PRODUIT_FINAL_CONSOLIDE.gpkg",
+      "source_layer": "localites_1928_geographiques",
+      "source_sha256": "f961a9ee642511aac107a3c74b9ab55d81c14c3b932715b721e21e62f2441f28",
+      "public_file": "data/morocco_historical_maps_1922_1938.gpkg",
+      "public_layer": "localities_1928",
+      "feature_count": 165
+    },
+    {
+      "year": 1934,
+      "family": "routes",
+      "source_file": "REPRODUCTION_1934/outputs/C1934_PRODUIT_FINAL_CONSOLIDE.gpkg",
+      "source_layer": "routes_1934_geographiques",
+      "source_sha256": "5af9c4b38aeafb2efc03bc29b74bcdbdfab4e00c30d55c74670296e8952d85c5",
+      "public_file": "data/morocco_historical_maps_1922_1938.gpkg",
+      "public_layer": "routes_1934",
+      "feature_count": 14463
+    },
+    {
+      "year": 1934,
+      "family": "localities",
+      "source_file": "REPRODUCTION_1934/outputs/C1934_PRODUIT_FINAL_CONSOLIDE.gpkg",
+      "source_layer": "localites_1934_geographiques",
+      "source_sha256": "5af9c4b38aeafb2efc03bc29b74bcdbdfab4e00c30d55c74670296e8952d85c5",
+      "public_file": "data/morocco_historical_maps_1922_1938.gpkg",
+      "public_layer": "localities_1934",
+      "feature_count": 224
+    },
+    {
+      "year": 1936,
+      "family": "routes",
+      "source_file": "REPRODUCTION_1936/outputs/C1936_PRODUIT_FINAL_CONSOLIDE.gpkg",
+      "source_layer": "routes_1936_geographiques",
+      "source_sha256": "63e3d7a211fd6b3c0af4ea9efb9171369560730ed283ccb7c85aba8e143ebbbc",
+      "public_file": "data/morocco_historical_maps_1922_1938.gpkg",
+      "public_layer": "routes_1936",
+      "feature_count": 15016
+    },
+    {
+      "year": 1936,
+      "family": "localities",
+      "source_file": "REPRODUCTION_1936/outputs/C1936_PRODUIT_FINAL_CONSOLIDE.gpkg",
+      "source_layer": "localites_1936_geographiques",
+      "source_sha256": "63e3d7a211fd6b3c0af4ea9efb9171369560730ed283ccb7c85aba8e143ebbbc",
+      "public_file": "data/morocco_historical_maps_1922_1938.gpkg",
+      "public_layer": "localities_1936",
+      "feature_count": 311
+    },
+    {
+      "year": 1938,
+      "family": "routes",
+      "source_file": "REPRODUCTION_1938/outputs/C1938_PRODUIT_FINAL_CONSOLIDE.gpkg",
+      "source_layer": "routes_1938_geographiques",
+      "source_sha256": "5cb0a668f0dbe49e149fec3a1eb190654737168aad0cc0e3b028baf5c83490a0",
+      "public_file": "data/morocco_historical_maps_1922_1938.gpkg",
+      "public_layer": "routes_1938",
+      "feature_count": 13170
+    },
+    {
+      "year": 1938,
+      "family": "localities",
+      "source_file": "REPRODUCTION_1938/outputs/C1938_PRODUIT_FINAL_CONSOLIDE.gpkg",
+      "source_layer": "localites_1938_geographiques",
+      "source_sha256": "5cb0a668f0dbe49e149fec3a1eb190654737168aad0cc0e3b028baf5c83490a0",
+      "public_file": "data/morocco_historical_maps_1922_1938.gpkg",
+      "public_layer": "localities_1938",
+      "feature_count": 585
+    }
+  ],
+  "gallery": [
+    {
+      "year": 1922,
+      "source_layers": [
+        "routes_1922",
+        "localities_1922"
+      ],
+      "file": "gallery/morocco_1922_vector_preview.png",
+      "sha256": "8ea2cbb05d98d091f880c1b45b02ce0a805334d995151021a05cd8229c1578ab"
+    },
+    {
+      "year": 1925,
+      "source_layers": [
+        "routes_1925",
+        "localities_1925"
+      ],
+      "file": "gallery/morocco_1925_vector_preview.png",
+      "sha256": "9e2f981a70a4cb945710a737a831c7a19b4edbd6b595c71a9407337d70aec965"
+    },
+    {
+      "year": 1928,
+      "source_layers": [
+        "routes_1928",
+        "localities_1928"
+      ],
+      "file": "gallery/morocco_1928_vector_preview.png",
+      "sha256": "4cf3df368b7ad3dc7e4e7f5f586ea430b8852820eabf3fe9e4da650e8aa9da85"
+    },
+    {
+      "year": 1934,
+      "source_layers": [
+        "routes_1934",
+        "localities_1934"
+      ],
+      "file": "gallery/morocco_1934_vector_preview.png",
+      "sha256": "8d77b4e1492cc3e26ca37695b9789d59a516327cf72ffaab4a6a9eaeff0ac2b2"
+    },
+    {
+      "year": 1936,
+      "source_layers": [
+        "routes_1936",
+        "localities_1936"
+      ],
+      "file": "gallery/morocco_1936_vector_preview.png",
+      "sha256": "673dd2da1092e40286a65e73c1d45adb7e0223ab463500db44ec1ebd753d149b"
+    },
+    {
+      "year": 1938,
+      "source_layers": [
+        "routes_1938",
+        "localities_1938"
+      ],
+      "file": "gallery/morocco_1938_vector_preview.png",
+      "sha256": "2c64b4158659e7f42e0c361b837cc6609c6bfe3a66a4c8a39e88bdc5362d8bc1"
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 91,
+      "sha256": "ff9fd2f0856405996d444bd9077d63a78cb79b718bf6e21f2662f280341082a3"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 436,
+      "sha256": "f03a8027a9507a03213ebe0eb7086777e38413135a7df8ba4a75860bfdf8e118"
+    },
+    {
+      "path": "code/annual/1922/001_pipeline_consolide_1922.py",
+      "bytes": 42899,
+      "sha256": "1453e66f6a6f4e691c60cf3139326937b7733c9ee922fc92f2c58ec886fe33c5"
+    },
+    {
+      "path": "code/annual/1922/002_verifier_produit_1922.py",
+      "bytes": 5068,
+      "sha256": "8d74d19458e5f09120a9b07cdaa9e8b5878d4ad6b52a8fba6c99111fd4e6bf54"
+    },
+    {
+      "path": "code/annual/1922/003_creer_projets_qgis.py",
+      "bytes": 10679,
+      "sha256": "0b3beba4a0c8adfd861bd94a3034c62788726767cfc104770284043c708e3e03"
+    },
+    {
+      "path": "code/annual/1925/001_pipeline_consolide_1925.py",
+      "bytes": 44543,
+      "sha256": "31a03c98f6ee659f7400736b7c72af273c12281b5362d0ae6d76052683ff091e"
+    },
+    {
+      "path": "code/annual/1925/002_verifier_produit_1925.py",
+      "bytes": 9351,
+      "sha256": "92580537fc6931d91fed987733743087e81e686d63675d567ced307e07a837aa"
+    },
+    {
+      "path": "code/annual/1925/003_creer_projets_qgis.py",
+      "bytes": 10225,
+      "sha256": "5228d4ed09dd0a44bd0d410cdbc1a798dd90c1890bd6451e142120573d98614c"
+    },
+    {
+      "path": "code/annual/1928/001_pipeline_consolide_1928.py",
+      "bytes": 42836,
+      "sha256": "f3ade5772caad847c90a110e9e96e63cebe6d4ad0500304488a36cf25b0ebf33"
+    },
+    {
+      "path": "code/annual/1928/002_verifier_produit_1928.py",
+      "bytes": 4822,
+      "sha256": "5800c650855f91c032aaf97ac3e757f44c302665689186dd4a861ea0ed2975e4"
+    },
+    {
+      "path": "code/annual/1928/003_creer_projets_qgis.py",
+      "bytes": 10679,
+      "sha256": "0b3beba4a0c8adfd861bd94a3034c62788726767cfc104770284043c708e3e03"
+    },
+    {
+      "path": "code/annual/1938/001_pipeline_consolide_1938.py",
+      "bytes": 45911,
+      "sha256": "105af3913f5d215618b7f6193edc4859ac50c0961d979cb6adfb7d8280b559ec"
+    },
+    {
+      "path": "code/annual/1938/002_verifier_produit_final.py",
+      "bytes": 8013,
+      "sha256": "947851914647a7c81ae7621c871fe1dd77b5ff72ac5c905fa58e2e346eccade0"
+    },
+    {
+      "path": "code/annual/1938/003_creer_projets_qgis.py",
+      "bytes": 10225,
+      "sha256": "5228d4ed09dd0a44bd0d410cdbc1a798dd90c1890bd6451e142120573d98614c"
+    },
+    {
+      "path": "code/annual/1938/010_preparer_controles_intercartes.py",
+      "bytes": 2174,
+      "sha256": "21e87d5db9c70a399099a7c1bc4e31e41caf1264543ea0650cf896e5c6dd8c50"
+    },
+    {
+      "path": "code/annual/1938/011_pipeline_millesime_depuis_1938.py",
+      "bytes": 22836,
+      "sha256": "733f5a17dd48aa913c305aec2935288c67c042ae716ef996bdd4d2ce7bd91db6"
+    },
+    {
+      "path": "code/annual/1938/012_verifier_millesime_depuis_1938.py",
+      "bytes": 3419,
+      "sha256": "849b5517c1d790e49290ae58081b9e1a8a09c2aa29d8e6b5d5c4f1ec26c26820"
+    },
+    {
+      "path": "code/annual/1938/013_audit_transversal_millesimes.py",
+      "bytes": 7078,
+      "sha256": "a2c207b894c3e9da15a350a234741339f538a2c5495c1514e762ef14acca372e"
+    },
+    {
+      "path": "code/annual/1938/020_construire_topologie_reseaux.py",
+      "bytes": 39434,
+      "sha256": "59be3e05a7724ae65d0525d939ed995398683516230b9487566a40646226ce38"
+    },
+    {
+      "path": "code/annual/1938/021_verifier_topologie_reseaux.py",
+      "bytes": 15916,
+      "sha256": "2acd336cb58a42b9b139bfa99c52872cb79f63ebe9bfa640e2f1c9ae3a738997"
+    },
+    {
+      "path": "code/routable/00_preflight.py",
+      "bytes": 2950,
+      "sha256": "f4bac00c293cfb2a6ac21b22b262fc4ca4c03ed70f536ea605f06c6b914e092a"
+    },
+    {
+      "path": "code/routable/50_build_core28_routable_network.py",
+      "bytes": 21376,
+      "sha256": "0c8028d676df2d143fb0466ba1b21575b0ad40839070b7e55b18cec1ac157e02"
+    },
+    {
+      "path": "code/routable/52_build_routable_topology_from_maps.py",
+      "bytes": 26380,
+      "sha256": "c7a54e2c0f7307f69835d450c7efffd3048acd3ab9eced669b69eeb1f544bab6"
+    },
+    {
+      "path": "code/routable/52_build_routable_topology_from_maps.R",
+      "bytes": 1307,
+      "sha256": "a14a4c67a9e19280a2662bb6280f87bb0a352f1dea83f36063a24751e8342bc9"
+    },
+    {
+      "path": "code/routable/53_build_core28_routable_network_from_maps.R",
+      "bytes": 1093,
+      "sha256": "509d600746156c6f1edd9d6faadf34a897c2cd42d0863fd4e5d68b291114befd"
+    },
+    {
+      "path": "code/routable/54_build_contemporary_core28_network.py",
+      "bytes": 24526,
+      "sha256": "ce893990a71153dcfb8d6ab47efd3dbbf5d0de5f2440f292a807889f0158a625"
+    },
+    {
+      "path": "code/routable/54_verify_routable_outputs.py",
+      "bytes": 5419,
+      "sha256": "3de911dc4fdea57d1dac01ad38b4e8f4eb9d57c9aae36fafea3901c4479630d7"
+    },
+    {
+      "path": "code/routable/55_build_historical_contemporary_redundancy_comparison.py",
+      "bytes": 5250,
+      "sha256": "c7d82312a83b5077e96e25c67bbf12e0eba06020ef4e5453c6d26fb2d5397e44"
+    },
+    {
+      "path": "code/routable/path_utils.py",
+      "bytes": 497,
+      "sha256": "b7078e94bff3e90f5c09b93a4cba8891f7df3348ef2568f747f418b7312b3f4e"
+    },
+    {
+      "path": "config/annual/1922/configuration_1922.json",
+      "bytes": 2440,
+      "sha256": "56827d6b520d55799739aba5a7f044f1903f4ff002c36be55cabf9e33191b52a"
+    },
+    {
+      "path": "config/annual/1922/reglages/C1922_RECALAGE_INTERCARTES.json",
+      "bytes": 550,
+      "sha256": "6aeb31c8d6c9f1443026c36f8cfd7519b2db664e54df1d2159a6653a456022f2"
+    },
+    {
+      "path": "config/annual/1922/reglages/C1922_REGLES_RESEAU_ROUGE.json",
+      "bytes": 876,
+      "sha256": "fbecd9e76c078127ef6c1779f4889687d6d51b0a6bd81b78228a236d604f1311"
+    },
+    {
+      "path": "config/annual/1925/configuration_1925.json",
+      "bytes": 2389,
+      "sha256": "e0c012d82d8a9941de1acd8a17047468a037ea391f5448ab11b307051e7c7020"
+    },
+    {
+      "path": "config/annual/1925/reglages/C1925_REGLES_RESEAU_ROUGE.json",
+      "bytes": 948,
+      "sha256": "fda595e4bc6ce645472edd879a1ae37668eef65b16f1ad775354b6bff4ec6596"
+    },
+    {
+      "path": "config/annual/1928/configuration_1928.json",
+      "bytes": 2106,
+      "sha256": "0d58aaf4854b89d370c33057673f640578551488ece7ede29646c2cb8c067a76"
+    },
+    {
+      "path": "config/annual/1928/reglages/C1928_RECALAGE_INTERCARTES.json",
+      "bytes": 556,
+      "sha256": "afba3a38bd1bb5837624db37fc17bfae91816d46f072cdb6aeb39f0b302771c4"
+    },
+    {
+      "path": "config/annual/1928/reglages/C1928_REGLES_RESEAU_ROUGE.json",
+      "bytes": 929,
+      "sha256": "bb68cbd62d1d5af36568482b40f467742938ff4409d066f97af19d2f7f4fd6f8"
+    },
+    {
+      "path": "config/annual/1934/configuration_1934.json",
+      "bytes": 2207,
+      "sha256": "c2196564e495e74a901e02ce5f2c495797df07f95af2b92a53decbefe609d4b0"
+    },
+    {
+      "path": "config/annual/1934/reglages/C1934_CONTROLES_GEOREFERENCE_AUTOMATIQUES.csv",
+      "bytes": 4209,
+      "sha256": "6a93bd3e0a057959dd1505cee36987a655432d181c8b25282f979b2e63136164"
+    },
+    {
+      "path": "config/annual/1934/reglages/C1934_CONTROLES_GEOREFERENCE_AUTOMATIQUES.json",
+      "bytes": 591,
+      "sha256": "c446426679bede30dc85a161e5c8970297c9829bf215cff61a93ca6b3b26460a"
+    },
+    {
+      "path": "config/annual/1934/reglages/C1934_REGLES_RESEAU_ROUGE.json",
+      "bytes": 894,
+      "sha256": "a8bbe59f4a7e8423fcf110ebb8a2ef16425f53d4271ce273d6cd543877054e2c"
+    },
+    {
+      "path": "config/annual/1936/configuration_1936.json",
+      "bytes": 2207,
+      "sha256": "c1b4a0a00f4e34555a232998af52d9a6cdb5f20360dac9b2e4ae1858dc29d3fb"
+    },
+    {
+      "path": "config/annual/1936/reglages/C1936_CONTROLES_GEOREFERENCE_AUTOMATIQUES.csv",
+      "bytes": 4218,
+      "sha256": "3d744e59e7dd98e554a4088452ea39bac76bd1efe247693f4aa6dd2774a221f4"
+    },
+    {
+      "path": "config/annual/1936/reglages/C1936_CONTROLES_GEOREFERENCE_AUTOMATIQUES.json",
+      "bytes": 591,
+      "sha256": "e87b6c03a4ded8c6f128bcb777bb8036642764ea69f8c0c1b0c6dde062b17b71"
+    },
+    {
+      "path": "config/annual/1936/reglages/C1936_REGLES_RESEAU_ROUGE.json",
+      "bytes": 895,
+      "sha256": "d0a668f2f84905af744155f1b9d638762d5add47c1ab2c2a287b754a153a95ef"
+    },
+    {
+      "path": "config/annual/1938/configuration_1938.json",
+      "bytes": 2410,
+      "sha256": "2185268d7eec26ab260e4e6c01f537624f7af28df28bb6c85d40025df9a5f381"
+    },
+    {
+      "path": "config/annual/1938/reglages/C1938_GRILLE_TUILES.csv",
+      "bytes": 41076,
+      "sha256": "43d69c01fb266ae5ce52a86f296d01d3be04c6ef933591b6da33550f330c93d2"
+    },
+    {
+      "path": "config/annual/1938/reglages/C1938_REGLES_RESEAU_ROUGE.json",
+      "bytes": 1324,
+      "sha256": "1badb0c674f2328f02e3be8744a20747e7c41cb35753e3f471036776252fcd41"
+    },
+    {
+      "path": "config/routable/contemporary_all148_network_2026-10-11.json",
+      "bytes": 473,
+      "sha256": "b343468836182eb1a9110403c2d4efe6d05111a7629ce60d35b50c3dcae62a7e"
+    },
+    {
+      "path": "config/routable/contemporary_core28_network_2026-10-11.json",
+      "bytes": 834,
+      "sha256": "daa5aacffbb1c129463fcf41b1e9ad2ad9188f9830db7f0dcb659b0eaa66c17f"
+    },
+    {
+      "path": "config/routable/core28_measurement_from_routable_maps.json",
+      "bytes": 755,
+      "sha256": "b95171c576dac6417e61333994b1707092f5dfb91be8edad365d459700e0518b"
+    },
+    {
+      "path": "config/routable/routable_topology_1922_1925.json",
+      "bytes": 753,
+      "sha256": "6fef28af7db2a930b46440e3a29b70ccbb5e87db289c0a97a9c8e829af318fb0"
+    },
+    {
+      "path": "config/routable/routable_topology_1928_1938.json",
+      "bytes": 1594,
+      "sha256": "aba30b9c2457b08fff9286d7c607dbee9de7f4b4d07c46ab0d1cd85261171d8d"
+    },
+    {
+      "path": "data/LAYER_SUMMARY.csv",
+      "bytes": 2866,
+      "sha256": "dbdb26a40255fc336772271a47f205453de9f03fa1ff759b8b394bc52e25c6dd"
+    },
+    {
+      "path": "data/morocco_historical_maps_1922_1938.gpkg",
+      "bytes": 40132608,
+      "sha256": "afb313f561e84a90412ec866af9ddf46b1f96b5b6fd6df28f211844e15a4c593"
+    },
+    {
+      "path": "docs/DATA_DICTIONARY.md",
+      "bytes": 2313,
+      "sha256": "a436e5728703c0d8f49d0a01515dd93ce33a3a1dc6843d2bcc78086f56332369"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 1427,
+      "sha256": "3c01b8a163a560aaa266f6b1d6ccb2c02b43d031a56ed77f4499b57feb70738d"
+    },
+    {
+      "path": "docs/SCIENTIFIC_OVERVIEW.fr.md",
+      "bytes": 2992,
+      "sha256": "f6a279ce9dcc6c4055094c8dde6f240b3f3edb6a146c090685ac11d9e5405d12"
+    },
+    {
+      "path": "docs/SCIENTIFIC_OVERVIEW.md",
+      "bytes": 2502,
+      "sha256": "dd2a57a690ef59cef011b5b264b5e797021ab5cafc3919eaff9e202d0c854c57"
+    },
+    {
+      "path": "gallery/morocco_1922_vector_preview.png",
+      "bytes": 106041,
+      "sha256": "8ea2cbb05d98d091f880c1b45b02ce0a805334d995151021a05cd8229c1578ab"
+    },
+    {
+      "path": "gallery/morocco_1925_vector_preview.png",
+      "bytes": 147049,
+      "sha256": "9e2f981a70a4cb945710a737a831c7a19b4edbd6b595c71a9407337d70aec965"
+    },
+    {
+      "path": "gallery/morocco_1928_vector_preview.png",
+      "bytes": 209542,
+      "sha256": "4cf3df368b7ad3dc7e4e7f5f586ea430b8852820eabf3fe9e4da650e8aa9da85"
+    },
+    {
+      "path": "gallery/morocco_1934_vector_preview.png",
+      "bytes": 285668,
+      "sha256": "8d77b4e1492cc3e26ca37695b9789d59a516327cf72ffaab4a6a9eaeff0ac2b2"
+    },
+    {
+      "path": "gallery/morocco_1936_vector_preview.png",
+      "bytes": 283648,
+      "sha256": "673dd2da1092e40286a65e73c1d45adb7e0223ab463500db44ec1ebd753d149b"
+    },
+    {
+      "path": "gallery/morocco_1938_vector_preview.png",
+      "bytes": 353097,
+      "sha256": "2c64b4158659e7f42e0c361b837cc6609c6bfe3a66a4c8a39e88bdc5362d8bc1"
+    },
+    {
+      "path": "LICENSE_PENDING.md",
+      "bytes": 463,
+      "sha256": "bc580428ac9687f5eea73561b027ec266a84f16d03994562fb7344dee5a9f1b4"
+    },
+    {
+      "path": "qgis/MOROCCO_HISTORICAL_MAPS_1922_1938.qgz",
+      "bytes": 35108,
+      "sha256": "e0c34f907cdff3eb4c3bb89ccc7fff747a7309306c421492fd7b19b975afeca0"
+    },
+    {
+      "path": "README.fr.md",
+      "bytes": 3767,
+      "sha256": "82d12493fed07f81e2ea61f9cec27854897559f4677e24f60ca174ad682f460a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3974,
+      "sha256": "64796374a03baee9cc8059963b1bccdd3149b63459391b1850d560341ade5d72"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 108,
+      "sha256": "72e38b45c37b77c7bbfadd08e93e418b7933c84337be2bb6ca546a51528f8482"
+    },
+    {
+      "path": "SOURCES_AND_RIGHTS.md",
+      "bytes": 2384,
+      "sha256": "985ec51236d7b049af90a316ec0c5cd161526b1229f9e18c228d1df87b594499"
+    }
+  ],
+  "publication_state": "PREPARED_NOT_PUBLIC"
+}

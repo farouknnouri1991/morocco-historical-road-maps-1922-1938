@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use these historical road-map data, please cite this repository and the associated research article when available."
+title: "Morocco historical road maps, 1922–1938"
+type: dataset
+authors:
+  - family-names: Nouri
+    given-names: Farouk
+version: 0.1.0-preparation
+date-released: 2026-11-18
+abstract: "Geographic road and locality layers derived from six historical maps of Morocco."
+license: other

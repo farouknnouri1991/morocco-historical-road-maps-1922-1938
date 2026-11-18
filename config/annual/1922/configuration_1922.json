@@ -1,0 +1,23 @@
+{
+  "map_id": "C1922",
+  "map_year": 1922,
+  "width": 7847,
+  "height": 6621,
+  "raster": "inputs/carte_originale/C1922_CARTE_ORIGINALE.jpg",
+  "raster_sha256": "295c84be749ba8d81893ed28c12f82f1d3ce641170c5ee8be111b7517699a780",
+  "road_extraction_config": "inputs/reglages/C1922_REGLES_RESEAU_ROUGE.json",
+  "ocr_title_core": [500, 250, 3500, 2350],
+  "ocr_legend_region": [500, 250, 3500, 2350],
+  "automatic_georeference_controls": "inputs/decisions_humaines/C1922_CONTROLES_GEOREFERENCE_HERITES_1925.csv",
+  "tesseract_executable": "../REPRODUCTION_1938/environnement/tesseract/tesseract.exe",
+  "geonames": "inputs/sources_modernes/MA_GEONAMES.txt",
+  "osm_pbf": "inputs/sources_modernes/MAROC_OSM.pbf",
+  "output_geopackage": "outputs/C1922_PRODUIT_FINAL_CONSOLIDE.gpkg",
+  "historical_qgis_project": "outputs/C1922_CARTE_HISTORIQUE.qgz",
+  "current_qgis_project": "outputs/C1922_SITUATION_MAROC_ACTUEL.qgz",
+  "visual_delivery": {"historical_raster_layer": "carte_originale_1922", "georeferenced_raster_layer": "carte_1922_georeferencee", "historical_roads_layer": "routes_1922_carte", "historical_localities_layer": "localites_1922_carte", "historical_texts_layer": "textes_1922_carte", "geographic_roads_layer": "routes_1922_geographiques", "geographic_localities_layer": "localites_1922_geographiques", "geographic_texts_layer": "textes_1922_geographiques", "current_roads_layer": "routes_maroc_actuel", "current_localities_layer": "localites_maroc_actuel", "preview_prefix": "C1922"},
+  "sea_mask": {"downsample_factor": 8, "deep_sea_safety_distance_px": 32, "border_seed_search_depth_px": 512, "seed_boxes": [[450, 3200, 550, 3300], [3600, 250, 3700, 350], [6000, 300, 6100, 400]], "rule": "SEA_SENTINELS_PLUS_AUTOMATIC_CROSSMAP_LAND_CONTROLS"},
+  "status": "FAROUK_VALIDATED_1922_MAP_PROMOTED_2026_10_07",
+  "scientific_validation": {"full_map_validated_by_farouk": true, "validated_on": "2026-10-07", "validated_candidate_sha256": "c96a8c48058dbaaf15ddefce33a28550d24b03923531245c872d9228e83872d5"},
+  "method_contract": {"historical_objects_come_only_from_historical_raster": true, "modern_sources_are_context_only": true, "road_track_classification_is_not_invented": true, "connectors_count_as_roads": true, "partial_locality_rings_are_admissible": true, "georeference_is_automatic_and_inherited_from_validated_1925_controls": true, "human_validated_localities_for_this_year": false, "full_map_validated_by_farouk": true}
+}
