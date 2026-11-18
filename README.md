@@ -60,4 +60,4 @@ The project reads [morocco_historical_maps_1922_1938.gpkg](data/morocco_historic
 
 ## Citation and licensing
 
-A citation file is included in [CITATION.cff](CITATION.cff). The final public data and code licences remain to be confirmed before the repository changes from private preparation to public release; see [LICENSE_PENDING.md](LICENSE_PENDING.md). Source-specific attribution requirements are documented separately in [SOURCES_AND_RIGHTS.md](SOURCES_AND_RIGHTS.md).
+A citation file is included in [CITATION.cff](CITATION.cff). Code under `code/` is released under the [MIT License](LICENSE-CODE.md). The vector data, QGIS project, previews, configurations and documentation are released under [CC BY-NC 4.0](LICENSE-DATA.md), subject to the source-specific attribution requirements in [SOURCES_AND_RIGHTS.md](SOURCES_AND_RIGHTS.md).

@@ -5,7 +5,7 @@ type: dataset
 authors:
   - family-names: Nouri
     given-names: Farouk
-version: 0.1.0-preparation
+version: 1.0.0
 date-released: 2026-11-18
 abstract: "Geographic road and locality layers derived from six historical maps of Morocco."
-license: other
+license: CC-BY-NC-4.0

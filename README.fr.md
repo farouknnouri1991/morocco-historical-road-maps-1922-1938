@@ -50,4 +50,4 @@ Le projet lit [morocco_historical_maps_1922_1938.gpkg](data/morocco_historical_m
 
 ## Citation et licences
 
-La citation recommandée figure dans [CITATION.cff](CITATION.cff). Les licences finales du code et des données doivent être confirmées avant le passage du dépôt privé de préparation au dépôt public ; voir [LICENSE_PENDING.md](LICENSE_PENDING.md). Les obligations propres aux sources sont documentées dans [SOURCES_AND_RIGHTS.md](SOURCES_AND_RIGHTS.md).
+La citation recommandée figure dans [CITATION.cff](CITATION.cff). Le code placé sous `code/` est diffusé sous [licence MIT](LICENSE-CODE.md). Les données vectorielles, le projet QGIS, les aperçus, les configurations et la documentation sont diffusés sous [CC BY-NC 4.0](LICENSE-DATA.md), sous réserve des obligations propres aux sources consignées dans [SOURCES_AND_RIGHTS.md](SOURCES_AND_RIGHTS.md).

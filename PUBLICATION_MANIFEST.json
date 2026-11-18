@@ -188,8 +188,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 436,
-      "sha256": "f03a8027a9507a03213ebe0eb7086777e38413135a7df8ba4a75860bfdf8e118"
+      "bytes": 431,
+      "sha256": "ef774de0a545d0c5a5054c8dca84052cebf5a36993e7372afa98efb4d7303dd6"
     },
     {
       "path": "code/annual/1922/001_pipeline_consolide_1922.py",
@@ -507,9 +507,19 @@
       "sha256": "2c64b4158659e7f42e0c361b837cc6609c6bfe3a66a4c8a39e88bdc5362d8bc1"
     },
     {
-      "path": "LICENSE_PENDING.md",
-      "bytes": 463,
-      "sha256": "bc580428ac9687f5eea73561b027ec266a84f16d03994562fb7344dee5a9f1b4"
+      "path": "LICENSE-CODE.md",
+      "bytes": 1071,
+      "sha256": "25e1dcbffa87e27812aa36277224729e9c65e91edda8145ef4cd7cd0d569c476"
+    },
+    {
+      "path": "LICENSE-DATA.md",
+      "bytes": 1108,
+      "sha256": "8c458d6554468dcb84f5b8faff917ef7b7c2416c8610ccd173f242e2c3bf3a52"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 713,
+      "sha256": "b17edf43d1069c8b0ea9d149232ad9ac1f59f9945755b6f5434ee8e44c0f8796"
     },
     {
       "path": "qgis/MOROCCO_HISTORICAL_MAPS_1922_1938.qgz",
@@ -518,13 +528,13 @@
     },
     {
       "path": "README.fr.md",
-      "bytes": 3767,
-      "sha256": "82d12493fed07f81e2ea61f9cec27854897559f4677e24f60ca174ad682f460a"
+      "bytes": 3813,
+      "sha256": "293e74b47ae11b3ec8a505e24bfb3d838764c03fb9b1525285ac460f5dc91f26"
     },
     {
       "path": "README.md",
-      "bytes": 3974,
-      "sha256": "64796374a03baee9cc8059963b1bccdd3149b63459391b1850d560341ade5d72"
+      "bytes": 3979,
+      "sha256": "0ea0f4361f6483bda37409f28f5932ba3af4498e7d8f792d842c0aab5c5cf3f1"
     },
     {
       "path": "requirements.txt",
@@ -533,9 +543,9 @@
     },
     {
       "path": "SOURCES_AND_RIGHTS.md",
-      "bytes": 2384,
-      "sha256": "985ec51236d7b049af90a316ec0c5cd161526b1229f9e18c228d1df87b594499"
+      "bytes": 2471,
+      "sha256": "20ad1cb7bf3ca5f780eb51afa726d684aa2665472d570b24c0f1e755a1fb60c0"
     }
   ],
-  "publication_state": "PREPARED_NOT_PUBLIC"
+  "publication_state": "APPROVED_FOR_PUBLICATION_V1.0.0"
 }
