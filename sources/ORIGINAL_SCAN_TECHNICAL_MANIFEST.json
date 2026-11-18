@@ -1,0 +1,92 @@
+[
+  {
+    "year": 1922,
+    "scan": "sources/original_scans/C1922_CARTE_ORIGINALE.jpg",
+    "scan_bytes": 6771760,
+    "scan_sha256": "295c84be749ba8d81893ed28c12f82f1d3ce641170c5ee8be111b7517699a780",
+    "world_file": "sources/original_scans/C1922_CARTE_ORIGINALE.jgw",
+    "world_file_sha256": "ffd03058c970d9e9c2c790031c00739b399968cdb72c829f5247ab6616f2ca90",
+    "source_image_geopackage": "data/source_image_control/C1922_SOURCE_IMAGE_VECTORS.gpkg",
+    "source_image_geopackage_bytes": 1257472,
+    "source_image_geopackage_sha256": "fbd11d9fbad01e944891d6c12ea982ac81ff472043a643a973efbf1267f5cfe2",
+    "source_layers": [
+      "routes_1922_carte",
+      "localites_1922_carte"
+    ]
+  },
+  {
+    "year": 1925,
+    "scan": "sources/original_scans/C1925_CARTE_ORIGINALE.jpg",
+    "scan_bytes": 6809782,
+    "scan_sha256": "fe5d521d7ae1b21fb1a33a3f4426781048b7571392b1e13a46f9f5fd55135273",
+    "world_file": "sources/original_scans/C1925_CARTE_ORIGINALE.jgw",
+    "world_file_sha256": "29c87286416338649d35e8ab7d8b573ea133dffc1ae20d38807b37073bdab75b",
+    "source_image_geopackage": "data/source_image_control/C1925_SOURCE_IMAGE_VECTORS.gpkg",
+    "source_image_geopackage_bytes": 1261568,
+    "source_image_geopackage_sha256": "c92ad82cb55f6b84ef3be22a6e13a7d5a4b113526dc6fc18d9d4166e20783ae3",
+    "source_layers": [
+      "routes_1925_carte",
+      "localites_1925_carte"
+    ]
+  },
+  {
+    "year": 1928,
+    "scan": "sources/original_scans/C1928_CARTE_ORIGINALE.jpg",
+    "scan_bytes": 6887373,
+    "scan_sha256": "2fb6038e029c5551a6a5a3dde491906606fd329866925e47b7bf1e9d70cf11ae",
+    "world_file": "sources/original_scans/C1928_CARTE_ORIGINALE.jgw",
+    "world_file_sha256": "ef85f9b734e4beb4e9f806809cecde8d4307eb905bb03228fb71d6ea7de6e2ac",
+    "source_image_geopackage": "data/source_image_control/C1928_SOURCE_IMAGE_VECTORS.gpkg",
+    "source_image_geopackage_bytes": 6111232,
+    "source_image_geopackage_sha256": "6c9085576e669e4b6a5680c53621109ac71ce78917f9e1d5f5c055cf8682493e",
+    "source_layers": [
+      "routes_1928_carte",
+      "localites_1928_carte"
+    ]
+  },
+  {
+    "year": 1934,
+    "scan": "sources/original_scans/C1934_CARTE_ORIGINALE.jpg",
+    "scan_bytes": 9215411,
+    "scan_sha256": "0b92f6589774791888c88c9b9c1a0012537007f2bf14846bca8d0d4439957320",
+    "world_file": "sources/original_scans/C1934_CARTE_ORIGINALE.jgw",
+    "world_file_sha256": "3d7b2e90bb09d38cae0897d35af384249b9629205d9c1f5401e1fcef53a7512e",
+    "source_image_geopackage": "data/source_image_control/C1934_SOURCE_IMAGE_VECTORS.gpkg",
+    "source_image_geopackage_bytes": 8253440,
+    "source_image_geopackage_sha256": "c1f0d18871dd561adf8957759af51c0835cf577ec351566faa4162d6ffc42f0d",
+    "source_layers": [
+      "routes_1934_carte",
+      "localites_1934_carte"
+    ]
+  },
+  {
+    "year": 1936,
+    "scan": "sources/original_scans/C1936_CARTE_ORIGINALE.jpg",
+    "scan_bytes": 10104915,
+    "scan_sha256": "3d6914b87c47beea7ccad150b475851361407ecf9be2657bc3d658d94c1ec346",
+    "world_file": "sources/original_scans/C1936_CARTE_ORIGINALE.jgw",
+    "world_file_sha256": "7aad8fa0a991f38dd34f305941db79ad89264157249f3c30678c31fb51fd0c18",
+    "source_image_geopackage": "data/source_image_control/C1936_SOURCE_IMAGE_VECTORS.gpkg",
+    "source_image_geopackage_bytes": 8527872,
+    "source_image_geopackage_sha256": "14789e292b53d85c57499a686b46c0cc3f4f9df40288cd4ddab42efbbf89d04a",
+    "source_layers": [
+      "routes_1936_carte",
+      "localites_1936_carte"
+    ]
+  },
+  {
+    "year": 1938,
+    "scan": "sources/original_scans/C1938_CARTE_ORIGINALE.jpg",
+    "scan_bytes": 40967603,
+    "scan_sha256": "7f1af41ec8dec77a77c205cc0adc4cfade73ca5c0169b5238ba37486ab631ae6",
+    "world_file": "sources/original_scans/C1938_CARTE_ORIGINALE.jgw",
+    "world_file_sha256": "0a957831ab13774f70775a56a07d4e41fdb2f60dac0a5b0a38633973a77e4d0e",
+    "source_image_geopackage": "data/source_image_control/C1938_SOURCE_IMAGE_VECTORS.gpkg",
+    "source_image_geopackage_bytes": 7561216,
+    "source_image_geopackage_sha256": "e64ee0667ef440ffdd912bee132a74bd5c715b0c8ef8d830036db833af404a42",
+    "source_layers": [
+      "routes_1938_carte",
+      "localites_1938_carte"
+    ]
+  }
+]

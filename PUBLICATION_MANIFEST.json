@@ -124,72 +124,16 @@
       "feature_count": 585
     }
   ],
-  "gallery": [
-    {
-      "year": 1922,
-      "source_layers": [
-        "routes_1922",
-        "localities_1922"
-      ],
-      "file": "gallery/morocco_1922_vector_preview.png",
-      "sha256": "8ea2cbb05d98d091f880c1b45b02ce0a805334d995151021a05cd8229c1578ab"
-    },
-    {
-      "year": 1925,
-      "source_layers": [
-        "routes_1925",
-        "localities_1925"
-      ],
-      "file": "gallery/morocco_1925_vector_preview.png",
-      "sha256": "9e2f981a70a4cb945710a737a831c7a19b4edbd6b595c71a9407337d70aec965"
-    },
-    {
-      "year": 1928,
-      "source_layers": [
-        "routes_1928",
-        "localities_1928"
-      ],
-      "file": "gallery/morocco_1928_vector_preview.png",
-      "sha256": "4cf3df368b7ad3dc7e4e7f5f586ea430b8852820eabf3fe9e4da650e8aa9da85"
-    },
-    {
-      "year": 1934,
-      "source_layers": [
-        "routes_1934",
-        "localities_1934"
-      ],
-      "file": "gallery/morocco_1934_vector_preview.png",
-      "sha256": "8d77b4e1492cc3e26ca37695b9789d59a516327cf72ffaab4a6a9eaeff0ac2b2"
-    },
-    {
-      "year": 1936,
-      "source_layers": [
-        "routes_1936",
-        "localities_1936"
-      ],
-      "file": "gallery/morocco_1936_vector_preview.png",
-      "sha256": "673dd2da1092e40286a65e73c1d45adb7e0223ab463500db44ec1ebd753d149b"
-    },
-    {
-      "year": 1938,
-      "source_layers": [
-        "routes_1938",
-        "localities_1938"
-      ],
-      "file": "gallery/morocco_1938_vector_preview.png",
-      "sha256": "2c64b4158659e7f42e0c361b837cc6609c6bfe3a66a4c8a39e88bdc5362d8bc1"
-    }
-  ],
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 91,
-      "sha256": "ff9fd2f0856405996d444bd9077d63a78cb79b718bf6e21f2662f280341082a3"
+      "bytes": 101,
+      "sha256": "fe5fe7250dabef2022672dab226da21c4dc4cb0ddf908695d6b7ce62391760e6"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 431,
-      "sha256": "ef774de0a545d0c5a5054c8dca84052cebf5a36993e7372afa98efb4d7303dd6"
+      "bytes": 481,
+      "sha256": "e0f1b027e9d0c51f67e43645b7b9c661778faa97d7077a8ff689082c5aaa5919"
     },
     {
       "path": "code/annual/1922/001_pipeline_consolide_1922.py",
@@ -280,6 +224,26 @@
       "path": "code/annual/1938/021_verifier_topologie_reseaux.py",
       "bytes": 15916,
       "sha256": "2acd336cb58a42b9b139bfa99c52872cb79f63ebe9bfa640e2f1c9ae3a738997"
+    },
+    {
+      "path": "code/publication/001_build_open_science_sources.py",
+      "bytes": 6275,
+      "sha256": "fd62a19037d0f82c7b082758415b9a4addf2fb670bbc52faaab1816c39e49be1"
+    },
+    {
+      "path": "code/publication/002_extend_master_qgis.py",
+      "bytes": 4824,
+      "sha256": "6f19eadbc9ef38119a51ec8ec9e3fd75728e82580b70bac1bcb14fa06ed7820b"
+    },
+    {
+      "path": "code/publication/003_verify_open_science_package.py",
+      "bytes": 4927,
+      "sha256": "d4a72b942aa9409fbcceaa0b1e0369ef305e38c76126a7f0cd491cf36627161a"
+    },
+    {
+      "path": "code/publication/004_refresh_publication_manifest.py",
+      "bytes": 1767,
+      "sha256": "1459306f79cf133262afedb2ee8308d9fa246405a3fcbd3e84752ad3055663cb"
     },
     {
       "path": "code/routable/00_preflight.py",
@@ -457,24 +421,64 @@
       "sha256": "afb313f561e84a90412ec866af9ddf46b1f96b5b6fd6df28f211844e15a4c593"
     },
     {
+      "path": "data/source_image_control/C1922_SOURCE_IMAGE_VECTORS.gpkg",
+      "bytes": 1257472,
+      "sha256": "fbd11d9fbad01e944891d6c12ea982ac81ff472043a643a973efbf1267f5cfe2"
+    },
+    {
+      "path": "data/source_image_control/C1925_SOURCE_IMAGE_VECTORS.gpkg",
+      "bytes": 1261568,
+      "sha256": "c92ad82cb55f6b84ef3be22a6e13a7d5a4b113526dc6fc18d9d4166e20783ae3"
+    },
+    {
+      "path": "data/source_image_control/C1928_SOURCE_IMAGE_VECTORS.gpkg",
+      "bytes": 6111232,
+      "sha256": "6c9085576e669e4b6a5680c53621109ac71ce78917f9e1d5f5c055cf8682493e"
+    },
+    {
+      "path": "data/source_image_control/C1934_SOURCE_IMAGE_VECTORS.gpkg",
+      "bytes": 8253440,
+      "sha256": "c1f0d18871dd561adf8957759af51c0835cf577ec351566faa4162d6ffc42f0d"
+    },
+    {
+      "path": "data/source_image_control/C1936_SOURCE_IMAGE_VECTORS.gpkg",
+      "bytes": 8527872,
+      "sha256": "14789e292b53d85c57499a686b46c0cc3f4f9df40288cd4ddab42efbbf89d04a"
+    },
+    {
+      "path": "data/source_image_control/C1938_QGIS_DISPLAY.tif",
+      "bytes": 46163639,
+      "sha256": "8fcfa76a7634c637948bd051afdf6b9214e5684a5583cf69e059414639e19076"
+    },
+    {
+      "path": "data/source_image_control/C1938_SOURCE_IMAGE_VECTORS.gpkg",
+      "bytes": 7561216,
+      "sha256": "e64ee0667ef440ffdd912bee132a74bd5c715b0c8ef8d830036db833af404a42"
+    },
+    {
       "path": "docs/DATA_DICTIONARY.md",
       "bytes": 2313,
       "sha256": "a436e5728703c0d8f49d0a01515dd93ce33a3a1dc6843d2bcc78086f56332369"
     },
     {
+      "path": "docs/RELEASE_NOTES_V1.1.0.md",
+      "bytes": 2284,
+      "sha256": "e464d312aa0ea3ac42b3af4ab602832ea001407a70cbddb862851b85d2cf0489"
+    },
+    {
       "path": "docs/REPRODUCIBILITY.md",
-      "bytes": 1427,
-      "sha256": "3c01b8a163a560aaa266f6b1d6ccb2c02b43d031a56ed77f4499b57feb70738d"
+      "bytes": 2507,
+      "sha256": "56d1a6b3b4c0e7119fc13678371f62e38c3f12b819fc63a8af3d0eff4aba0e50"
     },
     {
       "path": "docs/SCIENTIFIC_OVERVIEW.fr.md",
-      "bytes": 2992,
-      "sha256": "f6a279ce9dcc6c4055094c8dde6f240b3f3edb6a146c090685ac11d9e5405d12"
+      "bytes": 3168,
+      "sha256": "ed551c4a9c6bf6a4bc935314e7dcbcac0db0a72eff7d52a65497ca6fe45b2d7c"
     },
     {
       "path": "docs/SCIENTIFIC_OVERVIEW.md",
-      "bytes": 2502,
-      "sha256": "dd2a57a690ef59cef011b5b264b5e797021ab5cafc3919eaff9e202d0c854c57"
+      "bytes": 2678,
+      "sha256": "705bc7e1a54c7887557ae800e47d0635745101647bcb2afe8f7f895d48767aaf"
     },
     {
       "path": "gallery/morocco_1922_vector_preview.png",
@@ -513,8 +517,8 @@
     },
     {
       "path": "LICENSE-DATA.md",
-      "bytes": 1108,
-      "sha256": "8c458d6554468dcb84f5b8faff917ef7b7c2416c8610ccd173f242e2c3bf3a52"
+      "bytes": 1322,
+      "sha256": "8422168e5c8fcf695d01b03b5ff1e3e52487ac900cd81ef5e5d8b1715e7b989f"
     },
     {
       "path": "LICENSE.md",
@@ -523,18 +527,18 @@
     },
     {
       "path": "qgis/MOROCCO_HISTORICAL_MAPS_1922_1938.qgz",
-      "bytes": 35108,
-      "sha256": "e0c34f907cdff3eb4c3bb89ccc7fff747a7309306c421492fd7b19b975afeca0"
+      "bytes": 60867,
+      "sha256": "bc166733f16dfb06851fb718095d25411ffbffaad906e20aa49a787d7a1cafdf"
     },
     {
       "path": "README.fr.md",
-      "bytes": 3813,
-      "sha256": "293e74b47ae11b3ec8a505e24bfb3d838764c03fb9b1525285ac460f5dc91f26"
+      "bytes": 5728,
+      "sha256": "a79e88cf7ae7874b98dfee91b500201c3bc0941dc670cdd78cfbd835164ed4c2"
     },
     {
       "path": "README.md",
-      "bytes": 3491,
-      "sha256": "125605e07e0e36310c0b228659864e8ea5d5ddc461e02056a97831f5f97ce54c"
+      "bytes": 5221,
+      "sha256": "335018718b78a599670192d8cea5b6c5618adc1998051c5112c7cb2d651bdc05"
     },
     {
       "path": "requirements.txt",
@@ -542,10 +546,85 @@
       "sha256": "72e38b45c37b77c7bbfadd08e93e418b7933c84337be2bb6ca546a51528f8482"
     },
     {
+      "path": "sources/ORIGINAL_SCAN_MANIFEST.csv",
+      "bytes": 3639,
+      "sha256": "d0de28a02ef9846821fcaa49a969c017daa7d42723081eb63201e2df2be3748a"
+    },
+    {
+      "path": "sources/ORIGINAL_SCAN_TECHNICAL_MANIFEST.json",
+      "bytes": 4279,
+      "sha256": "33b3347fa0bf5c6f21dec6ec96822c4d0d3a313d66bc7cf4d4f490dd86c37c03"
+    },
+    {
+      "path": "sources/original_scans/C1922_CARTE_ORIGINALE.jgw",
+      "bytes": 26,
+      "sha256": "ffd03058c970d9e9c2c790031c00739b399968cdb72c829f5247ab6616f2ca90"
+    },
+    {
+      "path": "sources/original_scans/C1922_CARTE_ORIGINALE.jpg",
+      "bytes": 6771760,
+      "sha256": "295c84be749ba8d81893ed28c12f82f1d3ce641170c5ee8be111b7517699a780"
+    },
+    {
+      "path": "sources/original_scans/C1925_CARTE_ORIGINALE.jgw",
+      "bytes": 26,
+      "sha256": "29c87286416338649d35e8ab7d8b573ea133dffc1ae20d38807b37073bdab75b"
+    },
+    {
+      "path": "sources/original_scans/C1925_CARTE_ORIGINALE.jpg",
+      "bytes": 6809782,
+      "sha256": "fe5d521d7ae1b21fb1a33a3f4426781048b7571392b1e13a46f9f5fd55135273"
+    },
+    {
+      "path": "sources/original_scans/C1928_CARTE_ORIGINALE.jgw",
+      "bytes": 26,
+      "sha256": "ef85f9b734e4beb4e9f806809cecde8d4307eb905bb03228fb71d6ea7de6e2ac"
+    },
+    {
+      "path": "sources/original_scans/C1928_CARTE_ORIGINALE.jpg",
+      "bytes": 6887373,
+      "sha256": "2fb6038e029c5551a6a5a3dde491906606fd329866925e47b7bf1e9d70cf11ae"
+    },
+    {
+      "path": "sources/original_scans/C1934_CARTE_ORIGINALE.jgw",
+      "bytes": 26,
+      "sha256": "3d7b2e90bb09d38cae0897d35af384249b9629205d9c1f5401e1fcef53a7512e"
+    },
+    {
+      "path": "sources/original_scans/C1934_CARTE_ORIGINALE.jpg",
+      "bytes": 9215411,
+      "sha256": "0b92f6589774791888c88c9b9c1a0012537007f2bf14846bca8d0d4439957320"
+    },
+    {
+      "path": "sources/original_scans/C1936_CARTE_ORIGINALE.jgw",
+      "bytes": 26,
+      "sha256": "7aad8fa0a991f38dd34f305941db79ad89264157249f3c30678c31fb51fd0c18"
+    },
+    {
+      "path": "sources/original_scans/C1936_CARTE_ORIGINALE.jpg",
+      "bytes": 10104915,
+      "sha256": "3d6914b87c47beea7ccad150b475851361407ecf9be2657bc3d658d94c1ec346"
+    },
+    {
+      "path": "sources/original_scans/C1938_CARTE_ORIGINALE.jgw",
+      "bytes": 27,
+      "sha256": "0a957831ab13774f70775a56a07d4e41fdb2f60dac0a5b0a38633973a77e4d0e"
+    },
+    {
+      "path": "sources/original_scans/C1938_CARTE_ORIGINALE.jpg",
+      "bytes": 40967603,
+      "sha256": "7f1af41ec8dec77a77c205cc0adc4cfade73ca5c0169b5238ba37486ab631ae6"
+    },
+    {
+      "path": "sources/README.md",
+      "bytes": 3003,
+      "sha256": "bae0d6bca3e7a7aa30028587200c435f5dc6fbff051b74fbb5440da650986bed"
+    },
+    {
       "path": "SOURCES_AND_RIGHTS.md",
-      "bytes": 2471,
-      "sha256": "20ad1cb7bf3ca5f780eb51afa726d684aa2665472d570b24c0f1e755a1fb60c0"
+      "bytes": 3729,
+      "sha256": "1156022c2f8f4a28320454b0b545f5f19e94900990526d7a2c9adf070e62bdee"
     }
   ],
-  "publication_state": "RELEASED_PUBLIC_V1.0.0"
+  "publication_state": "RELEASED_PUBLIC_V1.1.0"
 }

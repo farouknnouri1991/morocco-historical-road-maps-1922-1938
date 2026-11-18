@@ -25,4 +25,4 @@ The maps do not share identical graphic conventions, coverage or source quality.
 
 ## Scope of the public documentation
 
-This overview records the interpretation, status and limits needed to use the retained layers. The source scans are excluded pending item-level source links and reuse confirmation.
+This overview records the interpretation, status and limits needed to use the retained layers. The six source scans are included with item-level BnF and Gallica links, file checksums and source-specific reuse terms. The master QGIS project also exposes the source-image vector layers so that extraction can be checked directly against each original raster.

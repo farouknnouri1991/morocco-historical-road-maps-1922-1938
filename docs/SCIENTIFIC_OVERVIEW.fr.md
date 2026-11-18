@@ -25,4 +25,4 @@ Les cartes ne partagent pas exactement les mêmes conventions graphiques, la mê
 
 ## Périmètre de la documentation publique
 
-Cette synthèse consigne l’interprétation, le statut et les limites nécessaires à l’utilisation des couches retenues. Les scans sources restent exclus tant que leurs notices exactes et leurs conditions de réutilisation ne sont pas reliées individuellement.
+Cette synthèse consigne l’interprétation, le statut et les limites nécessaires à l’utilisation des couches retenues. Les six scans sources sont inclus avec leurs liens BnF et Gallica individuels, leurs empreintes de fichier et leurs conditions de réutilisation propres. Le projet QGIS maître donne aussi accès aux couches vectorielles en coordonnées-image afin de contrôler directement l’extraction sur chaque raster original.
