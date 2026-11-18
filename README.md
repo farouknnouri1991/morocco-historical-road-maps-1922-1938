@@ -39,16 +39,6 @@ The road layer count is a count of vector objects, not a count of historically d
 
 The project reads [morocco_historical_maps_1922_1938.gpkg](data/morocco_historical_maps_1922_1938.gpkg), which contains all twelve layers and does not require the private source archive.
 
-## Preview
-
-| 1922 | 1925 | 1928 |
-|---|---|---|
-| ![1922 vector preview](gallery/morocco_1922_vector_preview.png) | ![1925 vector preview](gallery/morocco_1925_vector_preview.png) | ![1928 vector preview](gallery/morocco_1928_vector_preview.png) |
-
-| 1934 | 1936 | 1938 |
-|---|---|---|
-| ![1934 vector preview](gallery/morocco_1934_vector_preview.png) | ![1936 vector preview](gallery/morocco_1936_vector_preview.png) | ![1938 vector preview](gallery/morocco_1938_vector_preview.png) |
-
 ## Documentation
 
 - [Scientific overview](docs/SCIENTIFIC_OVERVIEW.md)

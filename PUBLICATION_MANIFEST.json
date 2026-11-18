@@ -533,8 +533,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3979,
-      "sha256": "0ea0f4361f6483bda37409f28f5932ba3af4498e7d8f792d842c0aab5c5cf3f1"
+      "bytes": 3491,
+      "sha256": "125605e07e0e36310c0b228659864e8ea5d5ddc461e02056a97831f5f97ce54c"
     },
     {
       "path": "requirements.txt",
@@ -547,5 +547,5 @@
       "sha256": "20ad1cb7bf3ca5f780eb51afa726d684aa2665472d570b24c0f1e755a1fb60c0"
     }
   ],
-  "publication_state": "APPROVED_FOR_PUBLICATION_V1.0.0"
+  "publication_state": "RELEASED_PUBLIC_V1.0.0"
 }
